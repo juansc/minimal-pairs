@@ -206,9 +206,9 @@ document.addEventListener('DOMContentLoaded', function () {
     const img1 = images[pair[0]];
     const img2 = images[pair[1]];
     image1.src = img1.url;
-    label1.textContent = img1.label;
+    label1.textContent = img1.label.toUpperCase();
     image2.src = img2.url;
-    label2.textContent = img2.label;
+    label2.textContent = img2.label.toUpperCase();
     index++;
   }
 
